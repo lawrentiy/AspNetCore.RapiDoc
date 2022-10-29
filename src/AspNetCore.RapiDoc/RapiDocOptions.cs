@@ -114,6 +114,11 @@ namespace AspNetCore.RapiDoc
         /// </summary>
         public SectionOptions SectionOptions { get; set; } = new SectionOptions();
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public SlotOptions SlotsOptions { get; set; } = new SlotOptions();
+
 
         /// <summary>
         /// API Server and calls
