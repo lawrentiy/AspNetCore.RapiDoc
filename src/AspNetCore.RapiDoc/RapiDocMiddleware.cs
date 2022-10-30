@@ -112,6 +112,7 @@ namespace AspNetCore.RapiDoc
                 { "%(DocumentTitle)", _options.HeadingText },
                 { "%(HeadContent)", _options.HeadContent },
                 { "%(SpecUrl)", _options.SpecUrl },
+                { "%(PersistAuth)", _options.PersistAuth.ToString().ToLower() },
                 { "%(SortTags)", _options.SortTags.ToString().ToLower() },
                 { "%(SortEndpointsBy)", _options.SortEndpointsBy.GetDisplayValue() },
                 { "%(GotoPath)", _options.GotoPath?.ToString()  ?? string.Empty},

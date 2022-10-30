@@ -25,6 +25,11 @@ namespace AspNetCore.RapiDoc
         /// </summary>
         public string SpecUrl { get; set; } = string.Empty;
 
+        /// <summary>
+        /// Authentication will be persisted to localStorage	
+        /// </summary>
+        public bool PersistAuth { get; set; }
+
         private string title = "RapiDoc";
 
         /// <summary>
